@@ -122,27 +122,26 @@ En este ejemplo tendremos que generar la estructura de Docker para poder descarg
 
 1. `docker compose up -d` --> Lanzamos los contenedores en *_background_* 
 
-    ![](images/cap1.png)
+    ![]({{ site.rul }}/images/Wordpress-5.2-images/cap1.png)
 
 2. `docker compose ps -a` --> Podemos ver toda la información de los contenedores actualmente en uso.
 
-    ![](images/cap2.png)
+     ![]({{ site.rul }}/images/Wordpress-5.2-images/cap2.png)
 
 3. `docker compose logs -f` --> Podemos ver los logs del sistema para ver que está bien o mal.
 
-    ![](images/cap3.png)
+     ![]({{ site.rul }}/images/Wordpress-5.2-images/cap3.png)
 
 ### Comprobamos accediendo a la URL.
 
 - Accedemos a la *_ip_* *_elastica_* de nuestra máquina y podremos comprobar que se ha realizado la instalación correctamente.
 
-    ![](images/cap4.png)
+     ![]({{ site.rul }}/images/Wordpress-5.2-images/cap4.png)
 
 
 - Conexión con PHP.
 
-    ![](images/cap5.png)
-
+    ![]({{ site.rul }}/images/Wordpress-5.2-images/cap5.png)
 
 # Estructura para el funcionamiento con el certificado *_HTTPS_*
 
@@ -263,14 +262,14 @@ En este ejemplo tendremos que generar la estructura de Docker para poder descarg
 
 1. `docker compose ps -a`
 
-    ![](images/cap6.png)
+     ![]({{ site.rul }}/images/Wordpress-5.2-images/cap6.png)
 
 - Aquí podemos ver los puertos nuevos que hemos configurado con su contenedor correspondiente.
 
 
 2. `Pagina de ejemplo de Wordpress`
 
-    ![](images/cap7.png)
+     ![]({{ site.rul }}/images/Wordpress-5.2-images/cap7.png)
 
 
 ![imagen]({{ site.url }})
