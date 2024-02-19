@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Práctica de Wordpress!"
-date:   2024-02-19 13:00:00 -0600
+date:   2024-02-19 06:00:00 -0600
 categories: Este es el README de Wordpress 
 ---
 
