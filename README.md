@@ -6,6 +6,8 @@ Este repositorio es para la Práctica 1 apartado 6 de IAW
 
 `docker run -it --rm -v "$PWD:/srv/jekyll" jekyll/jekyll jekyll new blog`
 
+`docker run -it --rm -v "$PWD:/srv/jekyll" jekyll/jekyll jekyll build` 
+
 # Comandos para cambiar la carpeta blogs
 
 `mv blog/* .`
